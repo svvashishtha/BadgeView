@@ -7,8 +7,8 @@
     <color name="sushi_color_gold">#FCC100</color>
     <color name="text_color_gold">#A16E17</color>
     <color name="trapezium_color">#D0BCF9</color>
-    <color name="sushi_yellow_500">#F3C117</color>
-    <color name="sushi_yellow_400">#F8D149</color>
-    <color name="sushi_yellow_800">#A16E17</color>
-    <color name="sushi_purple_200">#D0BCF9</color>
+    <color name="yellow_1">#F3C117</color>
+    <color name="yellow_2">#F8D149</color>
+    <color name="yellow_3">#A16E17</color>
+    <color name="purple_1">#D0BCF9</color>
 </resources>

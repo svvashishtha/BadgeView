@@ -7,7 +7,6 @@ import android.graphics.Path
 import android.graphics.Rect
 import android.support.v4.content.res.ResourcesCompat
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import kotlin.math.abs
 import kotlin.math.min
@@ -44,7 +43,7 @@ class BadgeView : View {
         circle1?.let {
             it.style = Paint.Style.FILL
             it.isAntiAlias = true
-            it.color = resources.getColor(R.color.sushi_yellow_500)
+            it.color = resources.getColor(R.color.yellow_1)
         }
         circle2 = Paint()
 
@@ -52,13 +51,13 @@ class BadgeView : View {
             it.style = Paint.Style.STROKE
 
             it.isAntiAlias = true
-            it.color = resources.getColor(R.color.sushi_yellow_400)
+            it.color = resources.getColor(R.color.yellow_2)
         }
         textPaint = Paint()
         textPaint?.let {
             it.style = Paint.Style.FILL
             it.isAntiAlias = true
-            it.color = resources.getColor(R.color.sushi_yellow_800)
+            it.color = resources.getColor(R.color.yellow_3)
             it.textAlign = Paint.Align.CENTER
         }
         val tf = ResourcesCompat.getFont(context, R.font.okra_semibold)
@@ -79,7 +78,7 @@ class BadgeView : View {
         trapezium?.let {
             it.style = Paint.Style.FILL
             it.isAntiAlias = true
-            it.color = resources.getColor(R.color.sushi_purple_200)
+            it.color = resources.getColor(R.color.purple_1)
         }
         trapezium1Path = Path()
 
