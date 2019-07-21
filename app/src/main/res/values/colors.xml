@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="sushi_color_exclusive_yellow">#F0D24D</color>
+    <color name="sushi_color_gold">#FCC100</color>
+    <color name="text_color_gold">#A16E17</color>
+    <color name="trapezium_color">#D0BCF9</color>
+    <color name="sushi_yellow_500">#F3C117</color>
+    <color name="sushi_yellow_400">#F8D149</color>
+    <color name="sushi_yellow_800">#A16E17</color>
+    <color name="sushi_purple_200">#D0BCF9</color>
+</resources>
